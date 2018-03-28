@@ -2,7 +2,7 @@ body {
   color: #fff; }
 
 #pirate {
-  background: url("assets/pirates_bg.jpg") no-repeat;
+  background: url('../assets/pirates_bg.jpg') no-repeat;
   background-size: cover; }
 
 .navbar {
@@ -19,7 +19,7 @@ body {
   font-size: 0.8rem; }
 
 .pirate-form {
-  background: url("assets/contact_form_bg.jpg") no-repeat;
+  background: url('../assets/contact_form_bg.jpg') no-repeat;
   background-size: cover; }
   .pirate-form h2 {
     letter-spacing: 4px; }
