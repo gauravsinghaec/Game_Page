@@ -1,0 +1,43 @@
+// @import "node_modules/bootstrap/scss/custom";
+
+body{
+    color: #fff;
+}
+#pirate{
+    background: url(/assets/pirates_bg.jpg) no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    @media (max-width: 34em){
+        background: black !important;
+    }
+    .nav-link{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+.feature{
+    color: black;
+    font-size: 0.8rem;
+}
+
+.pirate-form{
+    background: url('/assets/contact_form_bg.jpg') no-repeat;
+    background-size: cover;
+    h2{
+        letter-spacing: 4px;
+    };
+    h4{
+        color: lightgray;
+    };
+    .form-control{
+        padding: 10px;
+    }
+    .btn{
+        font-weight: bold;
+        border: none;
+        color: black;
+        padding: 12px;
+    };
+}
